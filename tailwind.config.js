@@ -4,15 +4,18 @@ module.exports = {
     './*.html'
   ],
   theme: {
+    container: {
+      padding: 'a.4rem',
+    },
     extend: {
       fontFamily: {
         'sans': "'Work Sans', sans-serif",
         'cascadia': '"CascadiaCode"',
       },
       colors: {
-        'do-blue-dark': '#080c2d',
-        'do-blue-medium': 'rgb(20,86,255)',
-        'do-blue-light': 'rgb(0,105,255)',
+        'do-blue-dark': '#081b4b',
+        'do-blue-medium': '#002c9b',
+        'do-blue-light': '#0069ff',
       }
     },
   },
